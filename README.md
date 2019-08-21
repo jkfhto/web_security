@@ -16,7 +16,7 @@ Web 前后端漏洞分析与防御
 ## 常见的web安全问题
 
 - [跨站脚本攻击XSS（Cross Site Scripting）](./xss/README.md)
-- 跨站请求伪造攻击CSRF（Cross-site request forgery）
+- [跨站请求伪造攻击CSRF（Cross-site request forgery）](./csrf/README.md)
 - 前端Cookie安全性
 - 点击劫持攻击
 - 传输过程安全问题
