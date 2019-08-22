@@ -32,7 +32,7 @@ CSRF（Cross-site request forgery）跨站请求伪造，也被称为“One Clic
 
 ## CSRF攻击防御
 
-- 通过[SameSite Cookie]，禁止第三方网站携带Cookie
+- 通过SameSite Cookie，禁止第三方网站携带Cookie
 - 不访问A网站前端，在A网站前端中加入验证信息，第三方攻击网站无法获取验证信息，后台通过判断验证信息处理请求
   - 验证码,（图形验证码）缺点是用户体验差
   - Token：Token 是在服务端产生的。如果前端使用用户名/密码向服务端请求认证，服务端认证成功，那么在服务端会返回 Token 给前端。前端可以在每次请求的时候带上 Token 证明自己的合法地位
