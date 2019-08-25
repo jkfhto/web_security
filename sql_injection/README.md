@@ -86,3 +86,9 @@ UPDATE myTable SET c1 = ?c1, c2 = ?c2, c3 = ?c3 WHERE c4 = ?c4
 query(`SELECT * FROM user WHERE id=?`,[id])
 ```
 
+## NOSQL注入防御
+
+- 检测数据类型
+- 类型转换
+- 写完整条件
+
