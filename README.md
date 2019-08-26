@@ -22,6 +22,7 @@ Web 前后端漏洞分析与防御
 - [传输过程安全问题](./transmission_eavesdrop/README.md)
 - [用户密码安全问题](./password_security/README.md)
 - [SQL注入攻击](./sql_injection/README.md)
+- [上传漏洞](./upload_vulnerability/README.md)
 - 信息泄露和社会工程学
 - 其他安全问题
 
