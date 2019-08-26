@@ -24,7 +24,6 @@ Web 前后端漏洞分析与防御
 - [SQL注入攻击](./sql_injection/README.md)
 - [上传漏洞](./upload_vulnerability/README.md)
 - [OAuth](./OAuth/README.md)
-- [其他安全问题](./other/README.md)
 
 ## 参考
 
